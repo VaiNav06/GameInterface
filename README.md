@@ -83,7 +83,7 @@ python scripts/test_agent.py
 	•	The agent will play automatically using the trained model.
 	•	High scores are hidden during testing.
 
-Project Structure
+## Project Structure
 
 GameInterface/
 │── gym_env/               # Gym environment wrapper  
