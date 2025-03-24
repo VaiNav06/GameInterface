@@ -53,21 +53,21 @@ Spacebar	Shoot bullets
 
     The RL agent interacts with a custom OpenAI Gym environment, where:
     	•	State space (observations the agent gets):
-    	•	Ship position
-    	•	Number of bullets on screen
-    	•	Number of remaining aliens
-    	•	Closest alien’s position
-    	•	Player’s remaining lives
+	    	• Ship position
+	    	• Number of bullets on screen
+	    	• Number of remaining aliens
+	    	• Closest alien’s position
+	    	• Player’s remaining lives
     	•	Action space (what the agent can do):
-    	•	Move left
-    	•	Move right
-    	•	Shoot
-    	•	Do nothing
+	    	• Move left
+	    	• Move right
+	    	• Shoot
+	    	• Do nothing
     	•	Rewards system:
-    	•	+0.5 for shooting
-    	•	+0.3 for moving right, +0.2 for moving left
-    	•	-50 if game over
-    	•	Score-based rewards for hitting aliens
+	    	• +0.5 for shooting
+	    	• +0.3 for moving right, +0.2 for moving left
+	    	• -50 if game over
+	    	• Score-based rewards for hitting aliens
 
 Training an RL Agent
 
