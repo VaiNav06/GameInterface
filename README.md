@@ -85,21 +85,21 @@ python scripts/test_agent.py
 
 ## Project Structure
 
-GameInterface/
-│── gym_env/               # Gym environment wrapper  
-│── gym_alien_invasion.py  # Custom Gym environment                
-│── train_ppo.py           # Training script for RL agent  
-├── test_ppo.py            # Testing script for trained agent                
-│── settings.py            # Game settings  
-│── ship.py                # Player spaceship logic  
-│── alien.py               # Alien movement & logic  
-│── bullet.py              # Bullet behavior  
-│── game_stats.py          # Tracks player lives, scores, etc.  
-│── game_functions.py      # Game mechanics & screen updates  
-│── scoreboard.py          # Displays scores in-game  
-│── alien_invasion.py      # Main Pygame script  
-│── models/                # Trained RL models  
-│── README.md              # Project documentation  
+	GameInterface/
+	│── gym_env/               # Gym environment wrapper  
+	│── gym_alien_invasion.py  # Custom Gym environment                
+	│── train_ppo.py           # Training script for RL agent  
+	├── test_ppo.py            # Testing script for trained agent                
+	│── settings.py            # Game settings  
+	│── ship.py                # Player spaceship logic  
+	│── alien.py               # Alien movement & logic  
+	│── bullet.py              # Bullet behavior  
+	│── game_stats.py          # Tracks player lives, scores, etc.  
+	│── game_functions.py      # Game mechanics & screen updates  
+	│── scoreboard.py          # Displays scores in-game  
+	│── alien_invasion.py      # Main Pygame script  
+	│── models/                # Trained RL models  
+	│── README.md              # Project documentation  
 
 ## Notes
 	•	Manual and AI gameplay – You can play manually or let an RL agent learn to play.
