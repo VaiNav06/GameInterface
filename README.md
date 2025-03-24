@@ -87,11 +87,9 @@ python scripts/test_agent.py
 
 GameInterface/
 │── gym_env/               # Gym environment wrapper  
-│── gym_alien_invasion.py  # Custom Gym environment  
-│               
+│── gym_alien_invasion.py  # Custom Gym environment                
 │── train_ppo.py           # Training script for RL agent  
-├── test_ppo.py            # Testing script for trained agent  
-│                
+├── test_ppo.py            # Testing script for trained agent                
 │── settings.py            # Game settings  
 │── ship.py                # Player spaceship logic  
 │── alien.py               # Alien movement & logic  
