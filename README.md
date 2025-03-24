@@ -19,6 +19,10 @@ This project is a reinforcement learning (RL) version of the classic Alien Invas
 	•	Scoring system:
 	•	The high score is displayed at the center (but hidden during AI training).
 	•	The current score is shown in the top-right corner.
+ 	•	Scoring System:
+		• The high score is displayed at the center in manual gameplay.
+		• The current score is shown in the top-right corner.
+		• The high score is NOT displayed during RL training or testing to prevent distractions.
 
 ## Installation
   1.	Clone the repository:
