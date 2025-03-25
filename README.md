@@ -81,8 +81,8 @@ To watch a trained RL agent play:
 
 	python test_ppo.py
 
-	•	The agent will play automatically using the trained model.
-	•	High scores are hidden during testing.
+•	The agent will play automatically using the trained model.
+•	High scores are hidden during testing.
 
 ## Project Structure
 
@@ -98,8 +98,12 @@ To watch a trained RL agent play:
 	│── game_functions.py      # Game mechanics & screen updates  
 	│── scoreboard.py          # Displays scores in-game  
 	│── alien_invasion.py      # Main Pygame script  
-	│── models                 # Trained RL models  
+	│── ppo_alien_invasion.zip # Trained RL models  
 	│── README.md              # Project documentation  
+ 	│── alien.png		   # Image of alien fleets
+  	│── ship.png		   # Image of user spacership
+   	│── button.py		   # Displays play button 
+   
 
 ## Notes
 	•	Manual and AI gameplay – You can play manually or let an RL agent learn to play.
