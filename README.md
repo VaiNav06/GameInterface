@@ -16,9 +16,6 @@ This project is a reinforcement learning (RL) version of the classic Alien Invas
 	•	The player has 3 lives and loses a life if:
 	•	An alien collides with the spaceship.
 	•	The alien fleet reaches the bottom.
-	•	Scoring system:
-	•	The high score is displayed at the center (but hidden during AI training).
-	•	The current score is shown in the top-right corner.
  	•	Scoring System:
 		• The high score is displayed at the center in manual gameplay.
 		• The current score is shown in the top-right corner.
@@ -27,8 +24,8 @@ This project is a reinforcement learning (RL) version of the classic Alien Invas
 ## Installation
   1.	Clone the repository:
 
-    git clone https://github.com/your-username/alien-invasion-rl.git
-    cd alien-invasion-rl
+    git clone https://github.com/VaiNav06/GameInterface
+    cd GameInterface
 
 
   2.	Install dependencies:
@@ -38,7 +35,7 @@ This project is a reinforcement learning (RL) version of the classic Alien Invas
 
   3.	Run the original game:
 
-    python game/alien_invasion.py
+    python alien_invasion.py
 
 
 
@@ -73,24 +70,23 @@ Training an RL Agent
 
 To train an AI agent using Deep Q-Learning (DQN):
 
-python scripts/train_agent.py
+	python train_ppo.py
 
-	•	The agent will learn by playing the game repeatedly and improving over time.
-	•	Trained models will be saved in the models/ directory.
+•	The agent will learn by playing the game repeatedly and improving over time.
+•	Trained models will be saved in the models/ directory.
 
 Testing a Trained Agent
 
 To watch a trained RL agent play:
 
-python scripts/test_agent.py
+	python test_ppo.py
 
 	•	The agent will play automatically using the trained model.
 	•	High scores are hidden during testing.
 
 ## Project Structure
 
-	GameInterface/
-	│── gym_env/               # Gym environment wrapper  
+	GameInterface/            
 	│── gym_alien_invasion.py  # Custom Gym environment                
 	│── train_ppo.py           # Training script for RL agent  
 	├── test_ppo.py            # Testing script for trained agent                
@@ -102,7 +98,7 @@ python scripts/test_agent.py
 	│── game_functions.py      # Game mechanics & screen updates  
 	│── scoreboard.py          # Displays scores in-game  
 	│── alien_invasion.py      # Main Pygame script  
-	│── models/                # Trained RL models  
+	│── models                 # Trained RL models  
 	│── README.md              # Project documentation  
 
 ## Notes
