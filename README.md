@@ -73,7 +73,7 @@ To train an AI agent using Deep Q-Learning (DQN):
 	python train_ppo.py
 
 •	The agent will learn by playing the game repeatedly and improving over time.
-•	Trained models will be saved in the models/ directory.
+•	Trained models will be saved.
 
 # Testing a Trained Agent
 
