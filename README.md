@@ -4,13 +4,13 @@ Alien Invasion - Reinforcement Learning
 
 This project is a reinforcement learning (RL) version of the classic Alien Invasion game using Pygame and OpenAI Gym. The goal is to train an AI agent to control a spaceship and shoot down alien fleets before they reach the bottom of the screen.
 
-## Features
+# Features
 	•	Manual gameplay – Play the original game using keyboard controls
 	•	AI training environment – Train an agent to play using reinforcement learning
 	•	Custom reward system – Encourages smart movement and shooting
 	•	Scoring system – Tracks high scores and current scores separately
 
-## How the Game Works
+# How the Game Works
 	•	The player (or agent) controls a spaceship that can move left, right, and shoot.
 	•	The goal is to destroy all aliens before they reach the bottom.
 	•	The player has 3 lives and loses a life if:
@@ -21,7 +21,7 @@ This project is a reinforcement learning (RL) version of the classic Alien Invas
 		• The current score is shown in the top-right corner.
 		• The high score is NOT displayed during RL training or testing to prevent distractions.
 
-## Installation
+# Installation
   1.	Clone the repository:
 
     git clone https://github.com/VaiNav06/GameInterface
@@ -66,7 +66,7 @@ Controls
 	    	- -50 if game over
 	    	- Score-based rewards for hitting aliens
 
-Training an RL Agent
+# Training an RL Agent
 
 To train an AI agent using Deep Q-Learning (DQN):
 
@@ -75,7 +75,7 @@ To train an AI agent using Deep Q-Learning (DQN):
 •	The agent will learn by playing the game repeatedly and improving over time.
 •	Trained models will be saved in the models/ directory.
 
-Testing a Trained Agent
+# Testing a Trained Agent
 
 To watch a trained RL agent play:
 
@@ -84,7 +84,7 @@ To watch a trained RL agent play:
 •	The agent will play automatically using the trained model.
 •	High scores are hidden during testing.
 
-## Project Structure
+# Project Structure
 
 	GameInterface/            
 	│── gym_alien_invasion.py  # Custom Gym environment                
@@ -105,7 +105,7 @@ To watch a trained RL agent play:
    	│── button.py		   # Displays play button 
    
 
-## Notes
+# Notes
 	•	Manual and AI gameplay – You can play manually or let an RL agent learn to play.
 	•	Custom Gym wrapper – Works with DQN and other RL algorithms.
 	•	Pygame rendering – Only enabled in human-mode rendering (during manual play).
