@@ -41,7 +41,7 @@ This project is a reinforcement learning (RL) version of the classic Alien Invas
 
 Controls
 
-	Key	Action
+	Key		Action
 	Left Arrow (←)	Move spaceship left
 	Right Arrow (→)	Move spaceship right
 	Spacebar	Shoot bullets
